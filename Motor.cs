@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CarroConsoleApp
+﻿public class Motor
 {
-    internal class Motor
+    public string Combustivel;
+    public double Cilindrada;
+    public int Potencia;
+
+    public Motor(string combustivel, double cilindrada, int potencia)
     {
+        Combustivel = combustivel;
+        Cilindrada = cilindrada;
+        Potencia = potencia;
     }
 }
